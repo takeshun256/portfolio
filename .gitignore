@@ -1,0 +1,13 @@
+# Build output
+.next/
+
+# Node modules
+node_modules/
+
+# Misc
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
