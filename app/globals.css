@@ -1,0 +1,202 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.navbar, .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem;
+}
+
+section {
+    margin: 2rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: #333;
+  }
+  
+  .skills-grid,
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .skill-card,
+  .project-card {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-button {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #0070f3;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-button:hover {
+    background-color: #005bb5;
+  }
+
+  .project-details-section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #333;
+  }
+  
+  .project-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .project-header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .project-summary {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .project-content h2 {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    color: #333;
+    border-bottom: 2px solid #0070f3;
+    padding-bottom: 0.5rem;
+  }
+  
+  .tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .tech-card {
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tech-icon {
+    margin-bottom: 0.5rem;
+    color: #0070f3;
+  }
+  
+  .github-link {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.8rem 1.5rem;
+    color: #fff;
+    background-color: #0070f3;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .github-link:hover {
+    background-color: #005bb5;
+  }
+
+  .project-details-section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #333;
+  }
+  
+  .project-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .project-header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .project-summary {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .project-content h2 {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    color: #333;
+    border-bottom: 2px solid #0070f3;
+    padding-bottom: 0.5rem;
+  }
+  
+  .tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .tech-card {
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tech-icon {
+    margin-bottom: 0.5rem;
+    color: #0070f3;
+  }
+  
+  .github-link {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.8rem 1.5rem;
+    color: #fff;
+    background-color: #0070f3;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .github-link:hover {
+    background-color: #005bb5;
+  }
+  
