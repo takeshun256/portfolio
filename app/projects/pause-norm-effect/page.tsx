@@ -29,8 +29,8 @@ const PauseNormEffect = () => (
         ))}
       </div>
 
-      <h2>開発人数</h2>
-      <p className="developer-count">1人</p>
+      <h2>研究人数</h2>
+      <p className="developer-count">2人</p>
 
       <h2>概要</h2>
       <p>
