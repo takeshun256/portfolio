@@ -21,7 +21,7 @@ const projects = [
   },
   {
     title: "株式会社Shinonome：感情分類",
-    description: "【2024年】赤ちゃんの音声の感情分類モデルの作成に従事しました。",
+    description: "【2024年】非言語的な赤ちゃんの音声の感情分類モデルの作成に従事しました。",
     github: "https://shinonome.com",
   },
   {
